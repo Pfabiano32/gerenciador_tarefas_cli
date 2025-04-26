@@ -1,6 +1,6 @@
 Projeto1_Gerenciador_Tarefas_CLI/
 ├── src/
-│   ├── __init__.py          # Arquivo vazio (indica que src é um pacote)
+│   ├── __init__.py         # Arquivo vazio (indica que src é um pacote)
 │   ├── database.py
 │   ├── gerenciador.py
 │   └── tarefa.py
