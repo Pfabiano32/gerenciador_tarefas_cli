@@ -172,7 +172,6 @@ Saída:
 
 ## Estrutura do Projeto
 
-
 ├── main.py
 
 ├── requirements.txt
