@@ -183,6 +183,8 @@ Saída:
 
 ├── docker-compose.EXEMPLO.yml
 
+├── .gitignore
+
 ├── src/
 
 │   ├── __init__.py
