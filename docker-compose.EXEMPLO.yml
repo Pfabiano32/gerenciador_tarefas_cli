@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  mysql_db:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: SENHA_ROOT_AQUI
+      MYSQL_DATABASE: nome_do_banco
+      MYSQL_USER: usuario_exemplo
+      MYSQL_PASSWORD: senha_segura
+    ports:
+    - "127.0.0.1:3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 5s
+      timeout: 10s
+      retries: 5
+
+volumes:
+  mysql_data:

@@ -1,0 +1,14 @@
+Projeto1_Gerenciador_Tarefas_CLI/
+├── src/
+│   ├── __init__.py          # Arquivo vazio (indica que src é um pacote)
+│   ├── database.py
+│   ├── gerenciador.py
+│   └── tarefa.py
+├── .gitignore
+├── docker-compose_exemplo.yml
+├── docker-compose.yml
+├── env.EXEMPLO
+├── requirements.txt
+├── README.md
+├── main.py
+└── .env
